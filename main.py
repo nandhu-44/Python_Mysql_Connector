@@ -7,7 +7,7 @@ passWord = passwordFile.read()
 passwordFile.close()
 
 # Establishing connection
-mydb = sqltor.connect(host='localhost',user='root',password=f'{passWord}')
+mydb = sqltor.connect(host='localhost',user='root',password=f'{passWord}',port ='4500')
 
 # Using cursor() to prepare cursor
 mc=mydb.cursor()

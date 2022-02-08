@@ -1,0 +1,27 @@
+{
+  "name": "python_mysql_connector",
+  "version": "1.0.0",
+  "description": "Connect to mysql database using python",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nandhu-44/Python_Mysql_Connector.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nandhu-44/Python_Mysql_Connector/issues"
+  },
+  "homepage": "https://github.com/nandhu-44/Python_Mysql_Connector#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.16"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "typescript": "^4.5.5"
+  }
+}

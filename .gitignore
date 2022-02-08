@@ -5,7 +5,8 @@ password.txt
 *.ts
 
 #NodeJs files
-index.js
 node_modules
-package.json
 package-lock.json
+
+#Web info
+testing.html

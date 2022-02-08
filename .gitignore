@@ -1,4 +1,10 @@
+#Mysql Password
 password.txt
+
+#Typescript files
+*.ts
+
+#NodeJs files
 index.js
 node_modules
 package.json

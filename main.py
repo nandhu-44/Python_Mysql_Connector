@@ -14,4 +14,5 @@ mc=mydb.cursor()
 mc.execute('CREATE DATABASE IF NOT EXISTS Company;')
 print("Created database \"Company\". ")
 mc.execute('USE Company;')
-print("Useing database \"Company\". ")
+print("Using database \"Company\". ")
+

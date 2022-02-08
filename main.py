@@ -18,4 +18,7 @@ print("Using database \"Company\". ")
 
 # Preparing sql statement to create tables
 
-mc.execute('CREATE TABLE Employee(empno int(4) primary key);')
+mc.execute('CREATE TABLE Employee(empno int(4) primary key,ename varchar(20) not null, salary float(8,2));')
+mc.execute(sql)
+#Close the connection
+mydb.close()

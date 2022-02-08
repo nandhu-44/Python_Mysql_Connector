@@ -6,7 +6,7 @@ passwordFile = open("password.txt","r+")
 passWord = passwordFile.read()
 passwordFile.close()
 
-#Establishing connection
+# Establishing connection
 mydb = sqltor.connect(host='localhost',user='root',password=f'{passWord}')
 
 # Using cursor() to prepare cursor
@@ -16,3 +16,6 @@ print("Created database \"Company\". ")
 mc.execute('USE Company;')
 print("Using database \"Company\". ")
 
+# Preparing sql statement to create tables
+
+mc.execute('CREATE TABLE Employee(empno int(4) primary key);')
